@@ -1,0 +1,20 @@
+{
+  "params":
+  {
+    "local_server":"True",
+    "local_uri": "mysql://root:@localhost/blogwrestlepro",
+    "prod_uri":"mysql://root:@localhost/blogwrestlepro",
+    "fb_url":"https://facebook.com/wppwblog",
+    "tw_url":"https://twitter.com/wppwblog",
+    "gh_url": "https://github.com/wppwblog",
+    "blog_name": "Wrestle Pro Blog",
+    "tag_line": " THE ONE SPOT FOR ALL PRO-WRESTLING FANS",
+    "gmail-user":"xetophergm@gmail.com",
+    "gmail-password":"ptex jjln szlg ucaj",
+    "no_of_posts": 5,
+    "about-text": "Welcome to Wrestle Pro, your ultimate source for everything related to the world of professional wrestling. We are passionate fans and dedicated enthusiasts who have come together to create a platform where wrestling aficionados can connect, discuss, and immerse themselves in the thrilling world of sports entertainment.\n\nOur Mission\nAt Wrestle Pro, our mission is simple: to provide a comprehensive and engaging space for wrestling fans of all ages and backgrounds. Whether you're a lifelong fan or just starting to explore the world of wrestling, we're here to be your go-to resource. We strive to:\n\n1. Inform: We keep you up-to-date with the latest news, events, and developments in the wrestling industry. Our team of writers and analysts works tirelessly to deliver accurate, insightful, and timely content.\n\n2. Entertain: Wrestling is not just a sport; it's a form of entertainment that captivates millions worldwide. We celebrate the spectacle, drama, and athleticism that make professional wrestling an enduring cultural phenomenon.\n\n3. Connect: Wrestle Pro is more than a blog; it's a community. We encourage discussion, interaction, and engagement among fans. Share your opinions, connect with other wrestling enthusiasts, and be part of our growing community.",
+    "admin_user": "mus",
+    "admin_password": "blogblog"
+  }
+}
+

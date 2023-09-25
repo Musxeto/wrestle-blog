@@ -1,0 +1,11 @@
+
+h1, h2, a {
+    color: white;
+}
+.white{
+    color: black;
+}
+.bg-image {
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the color and opacity as needed */
+    background-blend-mode: overlay; /* Optional: Blend mode for the background color */
+}

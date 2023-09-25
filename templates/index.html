@@ -1,0 +1,45 @@
+{% extends 'layout.html' %}
+{% block body %}
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('static/assets/img/home-bg.jpg');">
+    <div class="container position-relative px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-7">
+          <div class="site-heading">
+            <h1>Wrestle Pro</h1>
+            <span class="subheading">Unleash the Power of Pro Wrestling Wisdom!</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        {% for post in posts|reverse %}  {# Reverse the order of posts #}  
+          <div class="post-preview">
+            <a href="/post/{{post.slug}}">
+              <h2 class="post-title">{{ post.title }}</h2>
+              <h3 class="post-subtitle">{{post.tagline}}</h3>
+            </a>
+            <p class="post-meta">Posted by
+              <a href="#">Admin</a>
+              on {{post.date}}</p>
+          </div>
+
+          {{post.content[0:143]}}...
+          <hr>
+        {% endfor %}
+
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary float-left" href="{{prev}}"> &larr;Previous</a>
+          <a class="btn btn-primary float-right" href="{{next}}">Next &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
